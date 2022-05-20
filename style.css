@@ -1,10 +1,10 @@
 /* task2 a */
-* {
+body {
     font-family : sans-serif;
 }
 
 /* task3 a b c */
-p {
+.par {
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
