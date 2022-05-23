@@ -1,76 +1,115 @@
 <!DOCTYPE html>
-<!-- task4 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
-    <!-- task1 -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="index.html">Main</a>
-    <a href="contacts.html">Contacts</a>
-    <a href="products.html">Products</a>
-    <h2>Contact us</h2>
+    <div class="top">
+        <div class="top__content">
+            <div class="menu">
+                <a href="index.html">Main</a>
+                <a href="contacts.html">Contacts</a>
+                <a href="products.html">Products</a>
+            </div>
+            <div class="top__info">
+                <h2>Contact us</h2>
+            </div>
+        </div>
+    </div>
     <hr>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, beatae.
-    </p>
+    <div class="paragraph_text">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, beatae.
+        </p>
+    </div>
     <hr>
-    <img src="call.png" alt="this is image" height="150" width="150">
-    <form action="#">
-    <h4>Address</h4>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing.
-    </p>
-    <h4>Phone</h4>
-    <ul>
-        <li>first contact 9051234567 first@gmail.com</li>
-        <li>second contact 9263214567 second@gmail.com</li>
-    </ul>
-    <h4>Online service</h4>
-    <ul>
-        <li><a href="https://zvonili.com/phone/9051234567">90578912312</a></li>
-        <li><a href="https://support.google.com/">blockpost@gmail.com</a></li>
-    </ul>
-    <h4>Send us message</h4>
-    <b><i>Full Name:</i></b>&nbsp;<input type="text" name="fullName" placeholder="F.I.O." alt="F.I.O." size="18">
-    <br>
-    <b><i>Email:</i></b>&nbsp;<input type="email" name="email" placeholder="email" alt="email" size="23">
-    <br>
-        <b><i>Message:</i></b>
-    <p>
-        <textarea name="message" placeholder="your message" alt="message" cols="30" rows="8"></textarea>
-        <br>
-        <input type="submit" value="submit">
-    </p>
-    <!-- else <button>submit</button> -->
-        <br>
-        <textarea name="message" placeholder="your message" alt="message" cols="30" rows="8"></textarea>
-        <br>
-        <input type="submit" value="submit">
-    <!-- else <button>submit</button> -->
-    </form>
+    <span class="image">
+        <img src="call.png" alt="this is image" height="150" width="150">
+    </span>
+    <div class="input_form_text">
+        <form action="#">
+        <div class="header_h4_text">
+            <h4>Address</h4>
+        </div>
+        <div class="paragraph_text">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p>
+        </div>
+        <div class="header_h4_text">
+            <h4>Phone</h4>
+        </div>
+        <div class="ul_text">
+            <ul>
+                <li>9051234567</li>
+                <li>9263214567</li>
+            </ul>
+        </div>
+        <div class="header_h4_text">
+            <h4>Online service</h4>
+        </div>
+        <div class="ul_text">
+            <ul>
+                <li><a href="https://zvonili.com/phone/9051234567">90578912312</a></li>
+                <li><a href="https://support.google.com/">blockpost@gmail.com</a></li>
+            </ul>
+        </div>
+        <div class="header_h4_text">
+            <h4>Send us message</h4>
+        </div>
+        <div class="input_field_text">
+            <b><i>Full Name:</i></b>&nbsp;<input type="text" name="fullName" placeholder="F.I.O." alt="F.I.O." size="18">
+        </div>    
+            <br>
+        <div class="input_field_text">
+            <b><i>Email:</i></b>&nbsp;<input type="email" name="email" placeholder="email" alt="email" size="23">
+        </div>
+            <br>
+        <div class="input_field_text">
+                <b><i>Message:</i></b>
+            <div class="paragraph_text_field">
+                <p>
+                <textarea name="message" placeholder="your message" alt="message" cols="30" rows="8"></textarea>
+                <br>
+                <input type="submit" value="submit">
+                </p>
+            </div>
+        </div>
+        <!-- else <button>submit</button> -->
+        </form>
+    </div>
     <hr>
-    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2aa6255d480427e5f03ffde8ee0f0f0fed0dd34f3872438530f26dfb3223748f&amp;source=constructor" width="700" height="600" frameborder="0">
-    </iframe>
+    <div class="map_field">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2aa6255d480427e5f03ffde8ee0f0f0fed0dd34f3872438530f26dfb3223748f&amp;source=constructor" width="700" height="600" frameborder="0">
+        </iframe>
+    </div>
     <hr>
-    <h3>
-        doloremque repudiandae quos
-    </h3>
-    <p>
-        Ullam commodi modi, nulla ad hic magni rerum nobis architecto.
-    </p>
+    <div class="header_h3_text">
+        <h3>
+            doloremque repudiandae quos
+        </h3>
+    </div>
+    <div class="paragraph_text">
+        <p>
+            Ullam commodi modi, nulla ad hic magni rerum nobis architecto.
+        </p>
+    </div>
     <hr>
-    <ul>
-        <li>first contact 9051234567 first@gmail.com</li>
-        <li>second contact 9263214567 second@gmail.com</li>
-        <li>third contact 9884567892 third@gmail.com</li>
-    </ul>
-    <p>
-        Все права защищены&copy;
-    </p>
+    <div class="ul_text">
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>9263214567</li>
+            <li>first@gmail.com</li>
+        </ul>
+    </div>
+    <div class="footer_text">
+        <p>
+            Все права защищены&copy;
+        </p>
+    </div>
 </body>
 </html>
